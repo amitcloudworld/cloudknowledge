@@ -10,3 +10,4 @@ RUN cp -rvf softy-pinko/* .
 RUN rm -rf softy-pinkoe softy-pinko.zip
 CMD ["/usr/sbin/httpd", "-D",  "FOREGROUND"]
 EXPOSE 80
+#ok
